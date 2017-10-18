@@ -9,7 +9,7 @@ title: Films
         <th>Imdb</th>
     </thead>
     <tbody>
-    {% for item in site.data.films %}
+    {% for item in site.data.films sort-by%}
         <tr>
             <td>{{ item.Title }}</td>
             <td>{{ item.Rating }}</td>
