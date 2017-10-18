@@ -2,10 +2,10 @@
 table,tr,td,tbody{border:1px solid #bbb;padding:2px;margin:10px 0 15px 0;}
 td{padding-left:2px;padding-right:2px;}
 table.tablesorter{background-color:#EEE;font-size:8pt;width:100%;text-align:left;margin-bottom:16px;}
-table.tablesorter thead tr th,table.tablesorter tfoot tr th{background-color: #aeaeae;border:1px solid #bbb;font-size:8pt;padding:4px;font-weight:bold;}
-table.tablesorter thead tr .header{ cursor:pointer;font-weight:bold; background: #aeaeae url(/img/sort.gif) no-repeat center right; }
+table.tablesorter thead tr th,table.tablesorter tfoot tr th{background-color: #ea1;border:1px solid #bbb;font-size:8pt;padding:4px;font-weight:bold;}
+table.tablesorter thead tr .header{ cursor:pointer;font-weight:bold; background: #ea1 url(/img/sort.gif) no-repeat center right; }
 table.tablesorter tbody td{color: #3d3d3d;padding:4px;background-color:#fff;vertical-align:top;}
 table.tablesorter tbody tr.odd td {background-color: #eae8f6;}
-table.tablesorter thead tr .headerSortUp  {background: #9d9d9d url(/img/desc.gif) no-repeat center right; }
-table.tablesorter thead tr .headerSortDown{background: #9d9d9d url(/img/asc.gif) no-repeat center right; }
+table.tablesorter thead tr .headerSortUp  {background: #ea1 url(/img/desc.gif) no-repeat center right; }
+table.tablesorter thead tr .headerSortDown{background: #ea1 url(/img/asc.gif) no-repeat center right; }
 table, tr, th, td, tbody, thead{border-collapse:collapse;}
