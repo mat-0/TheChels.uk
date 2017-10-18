@@ -5,7 +5,7 @@ tag:
  - other
 ---
 
-Every week we post a new interview with someone about what software they use on their Mac, iPhone, or iPad. We do these interviews because not only are they fun, but a glimpse into what tools someone uses and how they use those tools can spark our imagination and give us an idea or insight into how we can do things better.
+> Every week we post a new interview with someone about what software they use on their Mac, iPhone, or iPad. We do these interviews because not only are they fun, but a glimpse into what tools someone uses and how they use those tools can spark our imagination and give us an idea or insight into how we can do things better.
 
 New setup interviews are posted every Monday; follow us on RSS or Twitter to stay up to date.
 

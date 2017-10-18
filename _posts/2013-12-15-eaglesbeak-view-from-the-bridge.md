@@ -5,9 +5,7 @@ tag:
  - other
 ---
  
-
-
-Ahead of the game at Chelsea this weekend we held a question and answer session with our friends at Chelsea Stats and here is what they told us.
+> Ahead of the game at Chelsea this weekend we held a question and answer session with our friends at Chelsea Stats and here is what they told us.
 
 We appreciate the time they spent answering our questions. You can check out their website here which will have plenty of information before and after the game.
 

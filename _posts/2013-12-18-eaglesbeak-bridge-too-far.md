@@ -4,7 +4,8 @@ title: Eaglesbeak - A bridge too far
 tag:
  - other
 ---
- It has been a very decent few weeks in the Premier League for Palace.
+
+> It has been a very decent few weeks in the Premier League for Palace.
 
 A division we looking completely lost in under the guidance of Holloway is now looking a real mouth watering prospect as we did in and show what we are really made of.
 

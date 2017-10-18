@@ -5,7 +5,7 @@ tag:
  - other
 ---
  
-Earlier in the season we had a chat with the team at Chelsea Stats so we got in touch with them again to find out how things have changed since then along with their views on the match up this weekend.
+> Earlier in the season we had a chat with the team at Chelsea Stats so we got in touch with them again to find out how things have changed since then along with their views on the match up this weekend.
 
 ####Q. How has the season been for you since we spoke in August before the Palace win at Stamford Bridge?
 

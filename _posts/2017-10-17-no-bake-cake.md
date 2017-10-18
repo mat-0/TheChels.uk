@@ -5,7 +5,7 @@ tags:
   - other
 ---
 
-* a no-bake cake that's perfect for making with children. You can also pick and mix the fillings to suit your taste
+> a no-bake cake that's perfect for making with children. You can also pick and mix the fillings to suit your taste
 
 ### Ingredients
 

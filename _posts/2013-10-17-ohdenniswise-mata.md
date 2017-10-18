@@ -5,7 +5,9 @@ tag:
  - other
 ---
  
-What constitutes an assist is debatable, a common area for confusion and discussion. This article will try to explain the method to the madness and aim to be a focal point for future debates. I was asked on Twitter how many goals and assists Mata had recorded in all competitions this season. 18 and 25 respectively, at the time of writing. Here's a typical response during the conversation (see other here*, here* and here*):
+> What constitutes an assist is debatable, a common area for confusion and discussion. This article will try to explain the method to the madness and aim to be a focal point for future debates. 
+
+I was asked on Twitter how many goals and assists Mata had recorded in all competitions this season. 18 and 25 respectively, at the time of writing. Here's a typical response during the conversation (see other here*, here* and here*):
 
 https://twitter.com/ShriCFC/status/320859402951331840
 https://twitter.com/Karaki91/status/320848320467709952

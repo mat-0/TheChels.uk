@@ -5,7 +5,7 @@ tag:
  - other
 ---
  
-For decades football fans having been discussing players, referees, decisions, and results. As technology improves the way in which we communicate, it becomes much more easy to debate these topics with fellow and opposition fans all around the world.
+> For decades football fans having been discussing players, referees, decisions, and results. As technology improves the way in which we communicate, it becomes much more easy to debate these topics with fellow and opposition fans all around the world.
 
 Additionally, the union of data and football has become an integral part of the match-watching experience. Mobile applications now provide live data analysis, buzzwords like ‘big data’ are becoming household terms, and business intelligence tools are becoming more accessible to the common sports fanatic. It is now possible to drive the debate and decision-making of our favorite sports by equipping supporters with unparalleled statistical knowledge.
 

@@ -5,4 +5,4 @@ tags:
   - stats
 ---
 
-Opta Joe says Chelsea have lost consecutive Premier League games under Antonio Conte for just the second time, after loss to Crystal Palace.
+> Opta Joe says Chelsea have lost consecutive Premier League games under Antonio Conte for just the second time, after loss to Crystal Palace.

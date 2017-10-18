@@ -5,6 +5,8 @@ tag:
  - other
 ---
  
+> It’s almost unheard of these days that a Chelsea player would be universally liked...
+ 
 Chelsea: Gianfranco Zola (Striker, 1996-2003) (@ChelseaStats)
 
 “It’s almost unheard of these days that a Chelsea player would be universally liked but his attitude and infectious smile made Zola special"
