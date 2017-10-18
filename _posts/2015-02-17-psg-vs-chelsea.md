@@ -3,9 +3,9 @@ layout: post
 title: Ultimate Fan Live - PSG vs Chelsea
 tag:
  - other
- ---
+---
  
- PSG vs Chelsea: The Fans View
+#### PSG vs Chelsea: The Fans View
 posted on Feb 17, 2015 by Cameron Innes
 The Champions League knockout stages comprise of some of the most highly anticipated games of the season. Ahead of this evening's stand-out tie between PSG and Chelsea, we spoke with @1970_PSG who runs http://1970psg.com and @ChelseaStats who runs http://thechels.co.uk to find out their views on the game, and help UFL users out with some top tips!
 

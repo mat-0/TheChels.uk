@@ -3,7 +3,7 @@ layout: post
 title: Eaglesbeak - Post-match reaction
 tag:
  - other
- ---
+---
  
 Football. Bloody hell. Palace were lucky to have 11 men when Puncheon went in at the shin of Azpilicueta early on, that was a red in my opinion, he was later involved with a foul and kicked the ball away at 1-0. Considering the 2 yellows Willian had a Villa it seems a little strange these weren't dealt with correctly by Lee Mason.
 
