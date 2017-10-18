@@ -5,7 +5,7 @@ title: Teams seen live
 
 <table class="tablesorter">
     <thead>
-      <th>Team</th>
+      <th>Teams</th>
     </thead>
     <tbody>
       {% for item in site.data.teams %}

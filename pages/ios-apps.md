@@ -3,9 +3,11 @@ layout: data
 title: iOS Apps
 ---
 
+Top iOS apps
+
 <table class="tablesorter">
     <thead>
-      <th>Team</th>
+      <th>Apps</th>
     </thead>
     <tbody>
       {% for item in site.data.ios-apps %}
