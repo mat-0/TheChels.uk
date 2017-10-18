@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ site.name }}</title>
+    {% include meta.html %}
+  </head>
+  <body>
+
+    <div id="outer-wrapper">
+
+      <div id="wrapper">
+
+        {% include header.html %}
+
+        <div class="front-page-content">
+        
+          <h2>{{ page.title }}</h2>
+          
+          {{ content }}
+        </div>
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="/js/master.js"></script>
+  </body>
+</html>
