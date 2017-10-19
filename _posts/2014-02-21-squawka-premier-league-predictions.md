@@ -1,5 +1,4 @@
 ---
-# 2014-02-21-squawka-premier-league-predictions.md
 layout: post
 title: Squawka - Why Pulis Palace Could Stun Man Utd: Squawka PL Predictions
 tags: 
