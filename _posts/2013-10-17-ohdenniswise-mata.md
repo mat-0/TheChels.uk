@@ -7,11 +7,7 @@ tag:
  
 > What constitutes an assist is debatable, a common area for confusion and discussion. This article will try to explain the method to the madness and aim to be a focal point for future debates. 
 
-I was asked on Twitter how many goals and assists Mata had recorded in all competitions this season. 18 and 25 respectively, at the time of writing. Here's a typical response during the conversation (see other here*, here* and here*):
-
-https://twitter.com/ShriCFC/status/320859402951331840
-https://twitter.com/Karaki91/status/320848320467709952
-https://twitter.com/malharcfc08/status/320847704349609984
+I was asked on Twitter how many goals and assists Mata had recorded in all competitions this season. 18 and 25 respectively, at the time of writing. Here's a typical response during the conversation (see other [here](https://twitter.com/ShriCFC/status/320859402951331840), [here](https://twitter.com/Karaki91/status/320848320467709952) and [here](https://twitter.com/malharcfc08/status/320847704349609984)):
 
 Opta, a major sports data provider, but by no means the be all and end all of football statistics, states a goal assist is "the final pass or pass-cum-shot leading to the recipient of the ball scoring a goal". Very definite terms are used: a pass or pass-cum-shot. So winning a penalty, winning a free-kick, or a deflection off a player's backside doesn't count unless, of course, the backside in question displayed significant intent!
 
