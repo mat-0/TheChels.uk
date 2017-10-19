@@ -2,7 +2,7 @@
 layout: post
 title: Stamford Shed - interview
 tag:
- - other
+ - Chelsea
 ---
 
 #### Hi ChelseaStats, thank you speaking to us today. What sparked your love for the club and made you become a fan?  
