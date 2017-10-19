@@ -1,8 +1,8 @@
 ---
 layout: post
 title: FourFourTwo - Chelsea vs Swansea - ask the experts
-tag:
- - other
+tags:
+ - chelsea
 ---
  
  We're debating the strongest line-ups for the opening day. How do you see it going? An ex-player, prominent blogger and FFT editor look at the various permutations...
