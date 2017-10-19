@@ -2,9 +2,8 @@
 layout: post
 title: Chelsea Ladies - Ward moves on
 tags 
-	- chelsea
----
-	
+ - chelsea
+---	
 
 Welsh international Helen Ward announced that her contract had expired this week and she was leaving Chelsea for pastures new. We caught up with the centre forward and asked her to recap on a her spell at the club and to find out what happens next.
 
