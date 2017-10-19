@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chelsea Ladies - Transfer Roundup
-tags:
+tag:
 	- chelsea
 ---
 

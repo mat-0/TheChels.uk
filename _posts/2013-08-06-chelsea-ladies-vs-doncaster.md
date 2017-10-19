@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chelsea Ladies - Doncaster
-tags:
+tag:
 	- chelsea
 ---
 
