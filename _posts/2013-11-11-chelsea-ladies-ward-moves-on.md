@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chelsea Ladies - Ward moves on
-tag 
+tag:
  - chelsea
 ---
 

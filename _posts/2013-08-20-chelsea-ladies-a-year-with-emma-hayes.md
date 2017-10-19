@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chelsea Ladies - A year with Emma Hayes
-tags 
+tags:
 	- chelsea
 ---
 
