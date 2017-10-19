@@ -2,7 +2,7 @@
 layout: post
 title: Chelsea Ladies - Season draws to a close for Chelsea Ladies
 tag:
-	- chelsea
+- chelsea
 ---
 
 The season draws to a close for Chelsea Ladies this weekend with just a home game to Lincoln to finish up what has been a difficult campaign.
