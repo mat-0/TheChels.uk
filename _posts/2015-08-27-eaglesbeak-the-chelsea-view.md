@@ -2,7 +2,7 @@
 layout: post
 title: Eaglesbeak - The Chelsea View
 tag:
- - other
+ - chelsea
 ---
  
  It does not seem too long ago that we were looking forward to a trip to Chelsea but regardless, we had a chat with Chelsea Stats to find out their hopes for the season.
