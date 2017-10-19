@@ -2,7 +2,7 @@
 layout: post
 title: EPL Index - The Rise and Rise of Salomon Kalou – Opta Analysis
 tag:
- - other
+ - chelsea
 ---
  
 Salomon Kalou confuses. The Ivorian sparks debate and splits Chelsea fans as to whether he is even worth a place in the side, courted by Arsene Wenger, there must be something about the man whose contract is up at the end of the season. Rumours are that he has been offered a new 4 year deal.
