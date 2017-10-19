@@ -2,7 +2,7 @@
 layout: post
 title: Eaglesbeak - Post-match reaction
 tag:
- - other
+ - chelsea
 ---
  
 > Ahead of the game at Chelsea this weekend we held a question and answer session with our friends at Chelsea Stats and here is what they told us.
