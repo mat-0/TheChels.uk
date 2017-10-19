@@ -3,7 +3,7 @@ layout: post
 title: Man City Programme 2015
 tags:
  - chelsea
- ---
+---
  
  ![match day program 1](https://github.com/ChelseaStats/TheChels.uk/raw/master/images/city-cover.jpg "Cover")
 
