@@ -2,7 +2,7 @@
 layout: post
 title: Eaglesbeak -Pre-season 2013-2014
 tag:
- - other
+ - chelsea
 ---
  
 Palace surprised many teams with their good run of form under Pulis and won over plenty of opposition fans and neutrals with their result especially the win over Chelsea and the comeback draw against Liverpool. But those highlights on what was a fantastic season for the Eagles will be forgotten as the new season begins.
