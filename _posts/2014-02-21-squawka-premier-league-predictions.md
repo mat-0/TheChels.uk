@@ -1,14 +1,9 @@
-
-
-
-
-
 ---
 layout: post
 title: Squawka - Why Pulis Palace Could Stun Man Utd: Squawka PL Predictions
 tags: 
  - other
---- 
+---
 
 ####Chelsea vs Everton
 
