@@ -2,7 +2,7 @@
 layout: post
 title: Chelsea Ladies - A year with Emma Hayes
 tag:
-	- chelsea
+- chelsea
 ---
 
 This week saw the anniversary of Emma Hayes’ appointment as manager, and after a disappointing defeat 2-0 against Lincoln. Hayes had the chance to celebrate with a league double over leaders Liverpool and a host of former blues.
