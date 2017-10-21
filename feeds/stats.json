@@ -10,7 +10,7 @@
       "redirectionUrl": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
       "titleText": {{ post.title | jsonify }}, 
       "mainText": {{ post.content | strip_html | jsonify }},
-      "updateDate": "{{ post.date | date_to_rfc822 }}"
+      "updateDate": "{{ post.date }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
 ]
