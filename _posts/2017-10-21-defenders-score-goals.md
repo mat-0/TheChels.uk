@@ -1,6 +1,7 @@
 ---  
 layout: post
-title: Chelsea defenders have scored more Premier League goals 
+title: Chelsea defenders have scored more Premier League goals
+date: 2017-10-21T14:45:00Z
 tags:
   - stats
 ---
