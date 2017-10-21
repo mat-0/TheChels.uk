@@ -1,18 +1,15 @@
 ---
+# front matter comment
 ---
 
 [
     
-    {% for post in site.tags.stats limit:10 %}
+    {% for post in site.tags.stats limit:5 %}
     {
       "uid": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
       "redirectionUrl": "{{ post.url | prepend: site.baseurl | prepend: site.url }}",
-      "titleText": {{ post.title | jsonify }},
-      {% if post.excerpt %}
-      "content_html": {{ post.excerpt | jsonify  }},
-      {% else %}
-      "mainText": {{ post.content | jsonify  }},
-      {% endif %}
+      "titleText": {{ post.title | jsonify }}, 
+      "mainText": {{ post.content | strip_html   }},
       "updateDate": "{{ post.date | date_to_rfc822 }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
