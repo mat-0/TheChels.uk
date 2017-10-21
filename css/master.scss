@@ -461,20 +461,6 @@ cite {
   margin-bottom: 30px;
 }
 
-.donations-in-post {
-  font-size: 0.8em;
-  background: #eee;
-  padding: 5px 10px;
-  line-height: 30px;
-  margin-top: 20px;
-
-  iframe {
-    position: relative;
-    top: 6px;
-    left: 10px;
-  }
-}
-
 .footer {
   background: #fff;
   line-height: 40px;
@@ -616,4 +602,3 @@ and (max-device-width : 480px) {
   background: none;
   padding: 0;
 }
-
