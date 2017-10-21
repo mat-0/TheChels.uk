@@ -5,4 +5,4 @@ tags:
   - stats
 ---
 
-Since the start of last season, Chelsea have scored more Premier League goals (19) via defenders than any other team.  After Azpilicueta scores Chelsea's third in 4-2 win.
+Since the start of last season, Chelsea have scored more Premier League goals (19) via defenders than any other team. After Azpilicueta scores Chelsea's third in a four two win over Watford.
