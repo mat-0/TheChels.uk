@@ -416,15 +416,14 @@ cite {
   position: absolute;
   top: -50px;
   right: 2px;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .topic:first-child {
-  margin-left: 4px;
+  margin-left: 1px;
 }
 
 .topic.selected {
-  font-size: 0.8em;
   border-radius: 5px;
   background: #ea1;
   color: #fff;
