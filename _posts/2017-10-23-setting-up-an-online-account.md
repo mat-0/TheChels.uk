@@ -29,7 +29,7 @@ Before signing up to any website or service I go through the following process:
 
 At any point the information returned is not acceptable find an alternative.
 
-essentially only sign up to services/sites that:
+Essentially only sign up to services/sites that:
 
 + support 2FA
 + do not store passwords in plain text
