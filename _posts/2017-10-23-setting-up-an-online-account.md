@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up an online account.
+title: Setting up an online account
 tag: 
  - workflow
 ---
