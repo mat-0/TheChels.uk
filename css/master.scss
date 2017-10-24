@@ -5,16 +5,16 @@
 // 16px = 1em
 
 body {
-  border-top: 2px solid #555;
+  border-top: 2px solid #326ea1;
   margin: 0;
   font-family: 'Lato', 'San Francisco', 'Gill Sans', sans-serif;
-  color: #333;
+  color: #222;
   font-size: 1em;
   background: #fff;
 }
 
 #outer-wrapper {
-  border-top: 7px solid #ddd;
+  border-top: 7px solid #ea1;
 }
 
 #wrapper {
@@ -414,18 +414,17 @@ cite {
 
 .filter {
   position: absolute;
-  top: -50px;
-  right: 2px;
-  font-size: 0.8em;
+  top: -70px;
+  right: 1px;
+  font-size: 0.7em;
 }
 
 .topic:first-child {
-  margin-left: 10px;
+  margin-left: 1px;
 }
 
 .topic.selected {
-  font-size: 0.9em;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #ea1;
   color: #fff;
   padding: 3px 6px;
@@ -459,20 +458,6 @@ cite {
 
 .toc {
   margin-bottom: 30px;
-}
-
-.donations-in-post {
-  font-size: 0.8em;
-  background: #eee;
-  padding: 5px 10px;
-  line-height: 30px;
-  margin-top: 20px;
-
-  iframe {
-    position: relative;
-    top: 6px;
-    left: 10px;
-  }
 }
 
 .footer {
@@ -616,4 +601,3 @@ and (max-device-width : 480px) {
   background: none;
   padding: 0;
 }
-
