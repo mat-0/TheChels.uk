@@ -10,7 +10,7 @@
       "titleText": {{ post.title | jsonify }}, 
       "mainText": {{ post.content | strip_html | jsonify }},
       "updateDate": "{{ post.date | date_to_xmlschema }}",
-      "source": {% if post.source == blank %}"ChelseaStats"{% else %}"{{ post.source | jsonify }}"{% endif %}
+      "source": {% if post.source == %}"ChelseaStats"{% else %}{{ post.source | jsonify }}{% endif %}
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
 ]
