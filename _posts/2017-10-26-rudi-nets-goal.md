@@ -2,7 +2,7 @@
 layout: post
 title: Rüdiger nets first goal for club
 date: 2017-10-26T10:45:00Z
-tags:
+tag:
   - stats
 ---
 
