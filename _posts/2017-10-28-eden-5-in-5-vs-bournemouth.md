@@ -3,7 +3,7 @@ layout: post
 title: Eden has 5 in 5 against Cherries
 date: 2017-10-28T21:45:00Z
 tag:
-  - stat
+  - stats
 source: ChelseaStats
 ---
  
