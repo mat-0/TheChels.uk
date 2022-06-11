@@ -1,24 +1,16 @@
 # importing modules
 import pathlib
 import helper
-import random
 import yaml
-
-def getRandomItemsFromList(workouts: list, items: int) -> str:
-    string = "3x AMRAP for 45 seconds, 15 second rest:\n\n"
-    for item in random.sample(workouts, items):
-            string += f"- {item['name']}\n"
-    return string
 
 # processing
 if __name__ == "__main__":
     try:
         root = pathlib.Path(__file__).parent.parent.resolve()
         yaml_file = root / "_data/workouts.yml"
-        print(yaml_file)
         with open(yaml_file, 'r') as stream:
             workouts = yaml.safe_load(stream)
-        string = getRandomItemsFromList(workouts, 3)
+        string = helper.getRandomItemsFromList("3x AMRAP for 45 seconds, 15 second rest:\n\n", workouts, 3)
 
         try:
             f = root / "_pages/morning.md"

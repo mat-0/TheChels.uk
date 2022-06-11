@@ -1,6 +1,7 @@
 # importing modules
 import requests
 import json
+import random
 import re
 from datetime import datetime
 
@@ -112,3 +113,8 @@ def get_corona(records: int) -> str:
         string_builder += (f"- {0 if data[i]['newCasesByPublishDate'] == None else data[i]['newCasesByPublishDate']} new cases & "
         f"{0 if data[i]['newDeaths28DaysByPublishDate'] == None else data[i]['newDeaths28DaysByPublishDate']} deaths on {data[i]['date']}\n")
     return string_builder
+
+def getRandomItemsFromList(string: str, items: list, counter: int) -> str:
+    for item in random.sample(items, counter):
+            string += f"- {item['name']}\n"
+    return string
