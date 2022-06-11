@@ -2,7 +2,6 @@
 import os
 import pathlib
 
-
 # processing
 try:
     root = pathlib.Path(__file__).parent.parent.resolve()

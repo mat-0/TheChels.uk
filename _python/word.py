@@ -4,7 +4,6 @@ import pathlib
 import feedparser
 import helper
 
-
 # processing
 if __name__ == "__main__":
     try:

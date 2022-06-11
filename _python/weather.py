@@ -7,7 +7,6 @@ from datetime import date
 import helper
 import requests
 
-
 # processing
 if __name__ == "__main__":
     try:

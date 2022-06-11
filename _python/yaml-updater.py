@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     args = arguments.parse_args()
     iLabel = args.label
-    iContent = args.content.replace('`','')
+    iContent = args.content.replace('`', '')
 
     root = pathlib.Path(__file__).parent.parent.resolve()
     p = root / f"_data/{iLabel.strip()}.yml"
@@ -27,5 +27,6 @@ if __name__ == "__main__":
         with open(p, 'a') as f:
             f.write(f"- {iContent.strip()}")
             print(f"{iLabel} completed\n")
+
     except FileNotFoundError:
             print('File does not exist, unable to proceed')

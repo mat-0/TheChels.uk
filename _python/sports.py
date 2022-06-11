@@ -6,7 +6,6 @@ from datetime import date
 import helper
 import requests
 
-
 # setup
 fixtures = set()
 pre_content = ""

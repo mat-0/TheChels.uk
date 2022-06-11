@@ -8,7 +8,7 @@ import feedparser
 import requests
 from yahoo_fin import stock_info as si
 
-
+# methods
 def replace_chunk(content: str, marker: str, chunk: str) -> str:
     replacer = re.compile(
         r"<!\-\- {} starts \-\->.*<!\-\- {} ends \-\->".format(marker, marker),

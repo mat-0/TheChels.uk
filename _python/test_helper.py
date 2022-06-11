@@ -4,7 +4,6 @@ from operator import contains
 import helper
 import pytest
 
-
 class Test_helper():
     def test_ord_given_int_returns_correct_string(self):
         assert helper.ord(1) == "1st"
@@ -21,7 +20,7 @@ class Test_helper():
             print(e_info)
 
     def test_given_input_date_is_formatted_correctly(self):
-        input =  "Sat, 04 Jun 2022 11:00:00 -0000"
+        input = "Sat, 04 Jun 2022 11:00:00 -0000"
         assert helper.convert_cfc_date(input) == "04 Jun"
 
     def test_replace_chunk_returns_string_correctly(self):
@@ -31,7 +30,8 @@ class Test_helper():
         assert output == f"<!-- tm starts -->\n{new_string}\n<!-- tm ends -->"
 
     def test_getDayOfTheWeek_given_date_returns_correct_string(self):
-        workingDate = helper.create_date("2022-06-08") # is Wednesday
+        workingDate = helper.create_date("2022-06-08")
+        # is Wednesday
         assert helper.get_day_of_the_week(workingDate) == "Wednesday"
 
     def test_getDayOfTheWeek_given_date_returns_error_if_date_not_valid(self):
@@ -62,33 +62,33 @@ class Test_helper():
         workingDate = helper.create_date("2022-06-06")
         # is Wednesday and week one
         week = helper.get_week_number(workingDate)
-        assert helper.is_week_one(week) == True
+        assert helper.is_week_one(week) is True
 
     def test_ifWeekTwo_returns_true_if_week_Two(self):
         workingDate = helper.create_date("2022-06-13")
         # is Monday and week two
         week = helper.get_week_number(workingDate)
-        assert helper.is_week_two(week) == True
+        assert helper.is_week_two(week) is True
 
     def test_isMonday_returns_true_if_monday(self):
         workingDate = helper.create_date("2022-06-06")
         # is Monday
-        assert helper.is_monday(workingDate) == True
+        assert helper.is_monday(workingDate) is True
 
     def test_isMonday_returns_false_if_not_monday(self):
         workingDate = helper.create_date("2022-06-07")
         # is Tuesday
-        assert helper.is_monday(workingDate) == False
+        assert helper.is_monday(workingDate) is False
 
     def test_isTuesday_returns_true_if_tuesday(self):
         workingDate = helper.create_date("2022-06-07")
         # is Tuesday
-        assert helper.is_tuesday(workingDate) == True
+        assert helper.is_tuesday(workingDate) is True
 
     def test_isTuesday_returns_false_if_not_tuesday(self):
         workingDate = helper.create_date("2022-06-08")
         # is Wednesday
-        assert helper.is_tuesday(workingDate) == False
+        assert helper.is_tuesday(workingDate) is False
 
     def test_get_random_items_from_a_list_returns_correct_item(self):
         list = ["a"]
@@ -114,5 +114,6 @@ class Test_helper():
         assert not contains(output, "- b")
         assert contains(output, "string")
 
+
 if __name__ == '__main__':
-        pytest.main()
+    pytest.main()
