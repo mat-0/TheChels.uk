@@ -9,7 +9,7 @@ if __name__ == "__main__":
         f = root / "_pages/morning.md"
         m = f.open().read()
         s = helper.get_corona(3)
-        c = helper.replace_chunk(m,"c19_marker", s)
+        c = helper.replace_chunk(m, "c19_marker", s)
         f.open("w").write(c)
         print('corona Completed')
     except FileNotFoundError:

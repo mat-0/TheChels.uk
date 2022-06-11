@@ -26,7 +26,7 @@ def ord(n: int) -> str:
     return str(n)+("th" if 4 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th"))
 
 
-def dtStylish(dt,f):
+def dtStylish(dt, f):
     return dt.strftime(f).replace("{th}", ord(dt.day))
 
 
@@ -46,8 +46,9 @@ def fetch_cfc_entries(url: str) -> list:
         for entry in entries
     ]
 
+
 def convert_cfc_date(input: str) -> str:
-    working =  datetime.strptime(input, "%a, %d %b %Y %H:%M:%S %z")
+    working = datetime.strptime(input, "%a, %d %b %Y %H:%M:%S %z")
     output = datetime.strftime(working, "%d %b")
     return output
 
@@ -121,12 +122,14 @@ def get_corona(records: int) -> str:
     data = response["body"]
     string_builder = f"##### Latest {records} day Local Corona Data\n\n"
     for i in range(0, records):
-        string_builder += (f"- {0 if data[i]['newCasesByPublishDate'] == None else data[i]['newCasesByPublishDate']} new cases & "
-        f"{0 if data[i]['newDeaths28DaysByPublishDate'] == None else data[i]['newDeaths28DaysByPublishDate']} deaths on {data[i]['date']}\n")
+        string_builder += (
+            f"- {data[i]['newCasesByPublishDate']} new cases & "
+            f"{data[i]['newDeaths28DaysByPublishDate']} deaths on {data[i]['date']}\n"
+            )
     return string_builder
 
 
 def get_random_items_from_a_list(string: str, items: list, counter: int) -> str:
     for item in random.sample(items, counter):
-            string += f"- {item}\n"
+        string += f"- {item}\n"
     return string

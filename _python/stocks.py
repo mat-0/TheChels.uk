@@ -8,7 +8,7 @@ import helper
 if __name__ == "__main__":
     try:
         root = pathlib.Path(__file__).parent.parent.resolve()
-        with open( root / "_data/stocks.yml", 'r') as stream:
+        with open(root / "_data/stocks.yml", "r") as stream:
             stocks_list = yaml.load(stream, Loader=yaml.FullLoader)
         f = root / "_pages/morning.md"
         m = f.open().read()
