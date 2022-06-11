@@ -10,13 +10,13 @@ if __name__ == "__main__":
     try:
         working_date = datetime.date.today()
         string = ""
-        if helper.isGardenWasteDay(working_date):
+        if helper.is_garden_waste_day(working_date):
             string += "- Garden Waste Day /n"
-        if helper.isRecyclingWasteDay(working_date):
+        if helper.is_recycling_waste_day(working_date):
             string += "- Recycling Waste Collection Day /n"
-        if helper.isRefuseWasteDay(working_date):
+        if helper.is_refuse_waste_day(working_date):
             string += "- Refuse Waste Collection Day /n"
-        if helper.isTuesday(working_date):
+        if helper.is_tuesday(working_date):
             string += "- Food Waste Collection Day /n"
         if string == "":
             string = "No tasks today"

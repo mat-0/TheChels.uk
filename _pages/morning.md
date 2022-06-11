@@ -19,9 +19,9 @@ seo: Good Morning Mat, Here is your daily briefing
 <!-- workout_marker starts -->
 3x AMRAP for 45 seconds, 15 second rest:
 
-- shadow boxing
-- bench dips
+- walking jacks
 - calf raises
+- bench dips
 
 <!-- workout_marker ends -->
 

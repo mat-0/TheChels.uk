@@ -58,50 +58,62 @@ def get_stocks(set_of_tickers: list) -> str:
         markdown += f"- {ticker} : {round(si.get_live_price(ticker),5)}\n"
     return markdown
 
-def getDayOfTheWeek(today: datetime) -> str:
+
+def get_day_of_the_week(today: datetime) -> str:
     return today.strftime("%A")
 
-def getWeekNumber(value: datetime) -> int:
+
+def get_week_number(value: datetime) -> int:
     return value.isocalendar()[1]
 
-def isOddNumber(number: int) -> bool:
+
+def is_odd_number(number: int) -> bool:
     if number % 2 == 0:
         return False
     return True
 
-def ifWeekOne(week: int) -> bool:
-    if isOddNumber(week):
+
+def is_week_one(week: int) -> bool:
+    if is_odd_number(week):
         return True
     return False
 
-def ifWeekTwo(week: int) -> bool:
-    if isOddNumber(week):
+
+def is_week_two(week: int) -> bool:
+    if is_odd_number(week):
         return False
     return True
 
-def isMonday(today) -> bool:
-    return getDayOfTheWeek(today) == "Monday"
 
-def isTuesday(today) -> bool:
-    return getDayOfTheWeek(today) == "Tuesday"
+def is_monday(today) -> bool:
+    return get_day_of_the_week(today) == "Monday"
 
-def isGardenWasteDay(today) -> bool:
-    if isMonday(today) and ifWeekTwo(getWeekNumber(today)):
+
+def is_tuesday(today) -> bool:
+    return get_day_of_the_week(today) == "Tuesday"
+
+
+def is_garden_waste_day(today) -> bool:
+    if is_monday(today) and is_week_two(get_week_number(today)):
         return True
     return False
 
-def isRecyclingWasteDay(today) -> bool:
-    if isTuesday(today) and ifWeekOne(getWeekNumber(today)):
+
+def is_recycling_waste_day(today) -> bool:
+    if is_tuesday(today) and is_week_one(get_week_number(today)):
         return True
     return False
 
-def isRefuseWasteDay(today) -> bool:
-    if isTuesday(today) and ifWeekTwo(getWeekNumber(today)):
+
+def is_refuse_waste_day(today) -> bool:
+    if is_tuesday(today) and is_week_two(get_week_number(today)):
         return True
     return False
 
-def createDate(input: str) -> datetime:
+
+def create_date(input: str) -> datetime:
     return datetime.strptime(input, "%Y-%m-%d")
+
 
 def get_corona(records: int) -> str:
     url = "https://raw.githubusercontent.com/Cheltenham-Open-Data/covid/main/corona.json"
@@ -113,7 +125,8 @@ def get_corona(records: int) -> str:
         f"{0 if data[i]['newDeaths28DaysByPublishDate'] == None else data[i]['newDeaths28DaysByPublishDate']} deaths on {data[i]['date']}\n")
     return string_builder
 
-def getRandomItemsFromList(string: str, items: list, counter: int) -> str:
+
+def get_random_items_from_a_list(string: str, items: list, counter: int) -> str:
     for item in random.sample(items, counter):
-            string += f"- {item['name']}\n"
+            string += f"- {item}\n"
     return string
