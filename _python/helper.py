@@ -1,10 +1,11 @@
 # importing modules
-import requests
 import json
 import random
 import re
 from datetime import datetime
+
 import feedparser
+import requests
 from yahoo_fin import stock_info as si
 
 

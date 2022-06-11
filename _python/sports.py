@@ -1,9 +1,11 @@
 # importing modules
 import json
 import pathlib
-import requests
 from datetime import date
+
 import helper
+import requests
+
 
 # setup
 fixtures = set()

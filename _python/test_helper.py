@@ -1,7 +1,8 @@
 # imports
 from operator import contains
-import pytest
+
 import helper
+import pytest
 
 
 class Test_helper():
