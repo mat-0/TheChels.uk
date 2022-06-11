@@ -15,6 +15,7 @@ if __name__ == "__main__":
         s = helper.get_stocks(stocks_list)
         c = helper.replace_chunk(m, "stocks_marker", f"\n{s}")
         f.open("w").write(c)
-        print('Stocks Completed')
+        print("Stocks Completed")
+
     except FileNotFoundError:
         print("File does not exist, unable to proceed")

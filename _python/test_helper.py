@@ -4,6 +4,7 @@ from operator import contains
 import helper
 import pytest
 
+
 class Test_helper():
     def test_ord_given_int_returns_correct_string(self):
         assert helper.ord(1) == "1st"
@@ -115,5 +116,5 @@ class Test_helper():
         assert contains(output, "string")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pytest.main()

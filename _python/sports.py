@@ -10,7 +10,7 @@ import requests
 fixtures = set()
 pre_content = ""
 date = date.today()
-today_date_string = helper.dtStylish(date.today(), '%A-{th}-%B')
+today_date_string = helper.dtStylish(date.today(), "%A-{th}-%B")
 root = pathlib.Path(__file__).parent.parent.resolve()
 url = f"https://push.api.bbci.co.uk/data/bbc-morph-football-scores-match-list-data/endDate/{date}/startDate/{date}/todayDate/{date}/tournament/full-priority-order/version/2.4.6?timeout=5"
 response_dict = json.loads(requests.get(url).text)
@@ -18,14 +18,17 @@ with open(root / "_data/comps.json", "r") as filehandler:
     tournament_slug = json.load(filehandler)
 
 for md_events in list(response_dict['matchData']):
-    for tournaments in (t_item for t_item in md_events if md_events['tournamentMeta']['tournamentSlug'] in tournament_slug):
+    for tournaments in (
+        t_item 
+        for t_item in md_events 
+        if md_events['tournamentMeta']['tournamentSlug'] in tournament_slug):
         for events in md_events['tournamentDatesWithEvents'][today_date_string]:
             for games in events['events']:
                 home_name = games['homeTeam']['name']['first']
                 away_name = games['awayTeam']['name']['first']
                 kick_off = games['startTimeInUKHHMM']
                 record = f"<li>({kick_off}) {home_name} - {away_name}</li>\n"
-                if(record not in fixtures):
+                if record not in fixtures:
                     fixtures.add(record)
 
 if not fixtures:
@@ -41,6 +44,7 @@ if __name__ == "__main__":
         m = f.open().read()
         c = helper.replace_chunk(m, "sports_marker", f"\n{pre_content}")
         f.open("w").write(c)
-        print('Sports Completed')
+        print("Sports Completed")
+
     except FileNotFoundError:
         print("File does not exist, unable to proceed")

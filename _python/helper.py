@@ -8,6 +8,7 @@ import feedparser
 import requests
 from yahoo_fin import stock_info as si
 
+
 # methods
 def replace_chunk(content: str, marker: str, chunk: str) -> str:
     replacer = re.compile(
@@ -19,12 +20,14 @@ def replace_chunk(content: str, marker: str, chunk: str) -> str:
 
 
 def remove_img_tags(data: str) -> str:
-    p = re.compile(r'<img.*?/>')
-    return p.sub('', data)
+    p = re.compile(r"<img.*?/>")
+    return p.sub("", data)
 
 
 def ord(n: int) -> str:
-    return str(n)+("th" if 4 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th"))
+    return str(n) + (
+        "th" if 4 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    )
 
 
 def dtStylish(dt, f):
@@ -118,7 +121,9 @@ def create_date(input: str) -> datetime:
 
 
 def get_corona(records: int) -> str:
-    url = "https://raw.githubusercontent.com/Cheltenham-Open-Data/covid/main/corona.json"
+    url = (
+    "https://raw.githubusercontent.com/Cheltenham-Open-Data/covid/main/corona.json"
+    )
     response = requests.get(url).json()
     data = response["body"]
     string_builder = f"##### Latest {records} day Local Corona Data\n\n"
@@ -126,7 +131,7 @@ def get_corona(records: int) -> str:
         string_builder += (
             f"- {data[i]['newCasesByPublishDate']} new cases & "
             f"{data[i]['newDeaths28DaysByPublishDate']} deaths on {data[i]['date']}\n"
-            )
+        )
     return string_builder
 
 

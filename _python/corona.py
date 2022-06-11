@@ -12,6 +12,7 @@ if __name__ == "__main__":
         s = helper.get_corona(3)
         c = helper.replace_chunk(m, "c19_marker", s)
         f.open("w").write(c)
-        print('corona Completed')
+        print("corona Completed")
+
     except FileNotFoundError:
         print("File does not exist, unable to proceed")
