@@ -16,9 +16,14 @@ seo: Good Morning Mat, Here is your daily briefing
 <!-- weather_marker ends -->
 
 #### Daily Workout
-<!-- workout_maker starts -->
+<!-- workout_marker starts -->
+3x AMRAP for 45 seconds, 15 second rest:
 
-<!-- workout_maker ends -->
+- shadow boxing
+- bench dips
+- calf raises
+
+<!-- workout_marker ends -->
 
 ##### Today's tasks
 <!-- task_marker starts -->
