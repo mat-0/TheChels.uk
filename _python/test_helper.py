@@ -103,12 +103,12 @@ class Test_helper():
         assert contains(output, "- b")
         assert contains(output, "string")
 
-    def test_get_random_items_from_a_list_given_count_bigger_than_list_throws_error(self):
+    def test_get_random_items_from_a_list_count_bigger_than_list_throws(self):
         with pytest.raises(Exception) as e_info:
             helper.get_random_items_from_a_list("string", ["a", "b", "c"], 4)
             print(e_info)
 
-    def test_get_random_items_from_a_list_given_zero_count_does_not_contain_list_items(self):
+    def test_get_random_items_from_a_list_zero_count_does_not_contain_list_items(self):
         output = helper.get_random_items_from_a_list("string", ["a", "b"], 0)
         assert not contains(output, "- a")
         assert not contains(output, "- b")
