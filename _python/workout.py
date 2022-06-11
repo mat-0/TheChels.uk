@@ -3,6 +3,7 @@ import pathlib
 import helper
 import yaml
 
+
 # processing
 if __name__ == "__main__":
     try:
@@ -19,6 +20,7 @@ if __name__ == "__main__":
             c = helper.replace_chunk(m, "workout_marker", string)
             f.open("w").write(c)
             print("Workout completed")
+
         except FileNotFoundError:
             print('Output File does not exist, unable to proceed')
 

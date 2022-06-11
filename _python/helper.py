@@ -4,7 +4,6 @@ import json
 import random
 import re
 from datetime import datetime
-
 import feedparser
 from yahoo_fin import stock_info as si
 
