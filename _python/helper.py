@@ -122,7 +122,7 @@ def create_date(input: str) -> datetime:
 
 def get_corona(records: int) -> str:
     url = (
-    "https://raw.githubusercontent.com/Cheltenham-Open-Data/covid/main/corona.json"
+        "https://raw.githubusercontent.com/Cheltenham-Open-Data/covid/main/corona.json"
     )
     response = requests.get(url).json()
     data = response["body"]

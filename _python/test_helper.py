@@ -5,7 +5,7 @@ import helper
 import pytest
 
 
-class Test_helper():
+class Test_helper:
     def test_ord_given_int_returns_correct_string(self):
         assert helper.ord(1) == "1st"
         assert helper.ord(2) == "2nd"
