@@ -934,3 +934,7 @@
   category: Engineering
   link: "https://www.mountaingoatsoftware.com/agile/podcast/rss"
   name: "Agile Mentors Podcast"
+ -
+  category: Security
+  link: "https://opensourcesecuritypodcast.libsyn.com/rss"
+  name: "Open Source Security Podcast"
