@@ -4,7 +4,8 @@ layout: post
 date: 2022-11-06
 
 ---
- In a cost of living and energy bill crisis, the following offers, valid as of November 2022, might be of some use. It won't cost you anything extra, but I may get a small kick-back from you accepting these offers.
+
+In a cost of living and energy bill crisis, the following offers, valid as of November 2022, might be of some use. It won't cost you anything extra, but I may get a small kick-back from you accepting these offers.
 
 
 ## Food Offers
